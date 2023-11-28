@@ -1,5 +1,6 @@
 import funcoes
 validar_equacao = verifica_equacao(a)
+print("CALCULADORA BHASKARA")
 if validar_equacao == True:
     D = delta(a, b, c)
     x1, x2 = valor_x(D, a, b)
